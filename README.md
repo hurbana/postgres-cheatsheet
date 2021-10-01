@@ -1,6 +1,18 @@
 # postgres-cheatsheet
 
-### list databasees
+## Databases
+
+##### list databasees
+```sql
 \l
-## connect to database
+```
+
+##### connect to database
+```sql
 \c <database_name>
+```
+
+##### show current database
+```sql
+SELECT current_database();
+```
