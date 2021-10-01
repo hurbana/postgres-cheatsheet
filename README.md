@@ -1,6 +1,6 @@
 # postgres-cheatsheet
 
-# list databasees
+### list databasees
 \l
-# connect to database
+## connect to database
 \c <database_name>
